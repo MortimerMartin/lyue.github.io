@@ -670,10 +670,17 @@
 
   </footer>
   <script type="text/javascript">
-    document.querySelector('#sortable').sortablejs()
-    $('img').lazyload({
-        effect:'fadeIn'
-    });
+
+    var timer = null;
+
+    timer = setInterval(function () {
+        $('img').lazyload({
+            effect:'fadeIn'
+        });
+        clearInterval(timer);
+    },1000);
+
+    document.querySelector('#sortable').sortablejs();
   </script>
 </body>
 </html>
