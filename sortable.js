@@ -206,5 +206,5 @@ class Sortable {
   }
 }
 HTMLElement.prototype.sortablejs = HTMLElement.prototype.sortablejs || function(params){
-  return new Sortable({parent: this, ...params})
+  return new Sortable({parent: this, params})
 }
