@@ -1,0 +1,13 @@
+{
+    "applinks":{
+        "apps":[
+
+        ],
+        "details":[
+            {
+                "paths":["/app/*"],
+                "appID":"xxxxxx.com.wechat.wexin"
+            }
+        ]
+    }
+}
